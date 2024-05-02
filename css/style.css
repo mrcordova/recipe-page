@@ -28,3 +28,18 @@ img.card-img {
     border-radius: 10px;
 }
 
+@media (max-width: 500px) {
+    img.card-img {
+        border-radius: 0px;
+    }
+
+    main.card{
+        border-radius: 0px;
+        padding: 0px;
+    }
+
+    main.card>section {
+        padding: 20px;
+    }
+    
+}
