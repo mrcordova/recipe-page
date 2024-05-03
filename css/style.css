@@ -99,6 +99,7 @@ img.card-img {
     background-color: var(--rose-white);
     border-radius: 20px;
     padding: 15px;
+    padding-left: 25px;
 }
 .prep-section>h3 {
     color: var(--dark-raspberry);
