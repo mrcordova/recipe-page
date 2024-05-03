@@ -98,7 +98,7 @@ img.card-img {
     border-bottom: 0.5px solid var(--light-grey);
 }
 .col {
-    flex: auto;
+    flex: 1;
     padding: 10px;
 }
 .last-col {
