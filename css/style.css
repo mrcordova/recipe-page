@@ -28,6 +28,19 @@ img.card-img {
     border-radius: 10px;
 }
 
+.ingredients-section {
+    color: var(--nutmeg);
+}
+
+.ingredients-section>ul>li {
+    padding-bottom: 10px;
+  
+}
+.ingredients-section>ul>li>span {
+    color: var(--light-grey);
+  
+}
+
 .summary-section>h1 {
     color: var(--dark-charcoal);
 }
