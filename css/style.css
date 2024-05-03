@@ -43,6 +43,12 @@ img.card-img {
   
 }
 
+.instruct-section {
+    color: var(--nutmeg);
+}
+.instruct-section>ol>li {
+    margin-bottom: 10px;
+}
 .summary-section>h1 {
     color: var(--dark-charcoal);
 }
