@@ -28,6 +28,31 @@ img.card-img {
     border-radius: 10px;
 }
 
+.summary-section>h1 {
+    color: var(--dark-charcoal);
+}
+
+.summary-section>p {
+    color: var(--light-grey);
+}
+
+.prep-section {
+    background-color: var(--rose-white);
+    border-radius: 30px;
+    padding: 15px;
+}
+.prep-section>h3 {
+    color: var(--dark-raspberry);
+}
+.prep-section>ul>li {
+    color: var(--dark-raspberry);
+    list-style-type: disc;
+}
+
+.prep-section>ul>li>span {
+    color: var(--light-grey);
+}
+
 @media (max-width: 500px) {
     img.card-img {
         border-radius: 0px;
@@ -42,4 +67,31 @@ img.card-img {
         padding: 20px;
     }
     
+}
+
+.young-serif-regular {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+
+.outfit-400 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+.outfit-600 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.outfit-700 {
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
 }
