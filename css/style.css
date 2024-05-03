@@ -45,9 +45,14 @@ img.card-img {
 
 .instruct-section {
     color: var(--nutmeg);
+    border-bottom: 0.5px solid var(--light-grey);
 }
 .instruct-section>ol>li {
     margin-bottom: 10px;
+    
+}
+.instruct-section>ol>li>span {
+    color: var(--wenge-brown);
 }
 .summary-section>h1 {
     color: var(--dark-charcoal);
