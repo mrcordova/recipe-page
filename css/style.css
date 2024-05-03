@@ -4,7 +4,8 @@
     --white: hsl(0, 0%, 100%);
     --rose-white: hsl(330, 100%, 98%);
     --eggshell: hsl(30, 54%, 90%);
-    --light-grey: hsl(30, 10%,  34%);
+    --light-grey: hsl(30, 18%, 87%);
+    --wenge-brown: hsl(30, 10%, 34%);
     --dark-charcoal: hsl(24, 5%, 18%);
 }
 
@@ -30,6 +31,7 @@ img.card-img {
 
 .ingredients-section {
     color: var(--nutmeg);
+    border-bottom: 0.5px solid var(--light-grey);
 }
 
 .ingredients-section>ul>li {
@@ -37,7 +39,7 @@ img.card-img {
   
 }
 .ingredients-section>ul>li>span {
-    color: var(--light-grey);
+    color: var(--wenge-brown);
   
 }
 
@@ -46,7 +48,7 @@ img.card-img {
 }
 
 .summary-section>p {
-    color: var(--light-grey);
+    color: var(--wenge-brown);
     margin-bottom: 20px;
 }
 
@@ -64,7 +66,7 @@ img.card-img {
 }
 
 .prep-section>ul>li>span {
-    color: var(--light-grey);
+    color: var(--wenge-brown);
 }
 
 @media (max-width: 500px) {
