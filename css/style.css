@@ -34,11 +34,12 @@ img.card-img {
 
 .summary-section>p {
     color: var(--light-grey);
+    margin-bottom: 20px;
 }
 
 .prep-section {
     background-color: var(--rose-white);
-    border-radius: 30px;
+    border-radius: 20px;
     padding: 15px;
 }
 .prep-section>h3 {
