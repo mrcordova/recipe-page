@@ -7,6 +7,7 @@
     --light-grey: hsl(30, 18%, 87%);
     --wenge-brown: hsl(30, 10%, 34%);
     --dark-charcoal: hsl(24, 5%, 18%);
+    --body-font-size: 16px;
 }
 
 body {
@@ -15,7 +16,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: var(--eggshell);
-
+    font-size: var(--body-font-size);
 }
 .nutr-section {
     color: var(--wenge-brown);
@@ -24,8 +25,30 @@ body {
     color: var(--nutmeg);
 }
 
+.nutr-section>.table {
+    display: flex;
+    flex-direction: column;
+}
+
+.nutr-section>.table>.row {
+    display: flex;
+    border-bottom: 0.5px solid var(--light-grey);
+}
+
+.nutr-section>.table>.row>.col {
+    flex: 1;
+    padding: 10px;
+}
+
+.nutr-section>.table>.row>.last-col {
+    color: var(--nutmeg);
+}
+
+.nutr-section>.table>.last-row {
+    border-bottom: 0px;
+}
 main.card {
-    max-width: 600px;
+    max-width: 700px;
     background-color: var(--white);
     border-radius: 10px;
     padding: 20px;
@@ -89,24 +112,7 @@ img.card-img {
     color: var(--wenge-brown);
 }
 
-.table {
-    display: flex;
-    flex-direction: column;
-}
-.row {
-    display: flex;
-    border-bottom: 0.5px solid var(--light-grey);
-}
-.col {
-    flex: 1;
-    padding: 10px;
-}
-.last-col {
-    color: var(--nutmeg);
-}
-.last-row {
-    border-bottom: 0px;
-}
+
 
 @media (max-width: 500px) {
     img.card-img {
