@@ -89,12 +89,24 @@ img.card-img {
     color: var(--wenge-brown);
 }
 
-.border {
-    border-bottom: 1px solid var(--light-grey);
-    padding: 0px;
+.table {
+    display: flex;
+    flex-direction: column;
 }
-
-
+.row {
+    display: flex;
+    border-bottom: 0.5px solid var(--light-grey);
+}
+.col {
+    flex: auto;
+    padding: 10px;
+}
+.last-col {
+    color: var(--nutmeg);
+}
+.last-row {
+    border-bottom: 0px;
+}
 
 @media (max-width: 500px) {
     img.card-img {
